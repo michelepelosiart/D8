@@ -1,6 +1,7 @@
 body {
     margin:0;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .logo img {
     width: 160px;
@@ -12,12 +13,42 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+.button{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .container{
+    font-size: 1rem;
+    color: #858585;
     width: 100%;
     background-color: aqua;
     padding-right: 60px;
     padding-left: 10%;
     display: block;
+}
+
+.container .header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap:10px;
+}
+.container .header a {
+    font-size: 0.7em;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #8D8D8D;
+    text-decoration: none;
+    padding: 8px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #8D8D8D ;
+}
+.container .header a:hover {
+    color: #575757;
 }
 main{
     display: flex;
@@ -53,17 +84,23 @@ img.avatar{
     width: 20px;
     border-radius: 50px;
 }
+.user img{
+    width: 50px;
+    border-radius: 50px;
+}
 img.avatar_logo{
     width: 20px;
     border-radius: 10px;
 }
 .estratto {
+    font-size: 1rem;
     display:flex;
     align-items: top;
     justify-content: space-between;
 }
-.estratto .testo {
-
+.estratto h3 {
+    font-size: 0.7em;
+    color:#252525;
 }
 .estratto .foto {
     justify-content: space-between;
