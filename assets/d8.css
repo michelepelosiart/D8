@@ -1,0 +1,87 @@
+body {
+    margin:0;
+    font-size: 1rem;
+}
+.logo img {
+    width: 160px;
+}
+header{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    background-color: aqua;
+    padding-right: 60px;
+    padding-left: 10%;
+    display: block;
+}
+main{
+    display: flex;
+    background-color: coral;
+    
+}
+aside{
+    display: flex;
+    width: 364px;
+    background-color:bisque;
+}
+.container .header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container .content {
+    background-color: aqua;
+}
+
+.autore {
+    display: flex;
+    align-items: center;
+}
+.autore img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.articolo .info div {
+    display: flex;
+}
+img.avatar{
+    width: 20px;
+    border-radius: 50px;
+}
+img.avatar_logo{
+    width: 20px;
+    border-radius: 10px;
+}
+.estratto {
+    display:flex;
+    align-items: top;
+    justify-content: space-between;
+}
+.estratto .testo {
+
+}
+.estratto .foto {
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    aside, main, .container {
+         display: block;
+     }
+    aside {
+        width: 100%;
+        padding: 20px;
+    }
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
